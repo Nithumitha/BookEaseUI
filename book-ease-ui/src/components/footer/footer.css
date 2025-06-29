@@ -1,0 +1,39 @@
+.footer {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.footerList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footerList > div {
+    flex: 1; 
+    min-width: 200px; 
+}
+
+.footerListTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 1.2em;
+}
+
+.fList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.fListItem:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
