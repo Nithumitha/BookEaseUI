@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #073e74;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navButton {
+    margin-left: 20px;
+    color: #073e74;;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
