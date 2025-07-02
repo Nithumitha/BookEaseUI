@@ -1,6 +1,12 @@
 .footer {
     font-size: 14px;
     padding: 20px;
+    width: 100%;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto; 
 }
 
 .footerList {
